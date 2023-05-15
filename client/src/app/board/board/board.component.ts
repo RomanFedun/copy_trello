@@ -40,7 +40,7 @@ export class BoardComponent implements OnInit, OnDestroy {
         const boardId = this.route.snapshot.paramMap.get('boardId');
 
         if (!boardId) {
-            throw new Error("Can't get boardId from URL");
+            throw new Error("Can't get boardId from current URL");
         }
         this.boardId = boardId;
         // this.board$ = this.boardStateService.board$.pipe(filter(Boolean));
