@@ -1,0 +1,39 @@
+<app-topBar></app-topBar>
+
+<div class="boards-page-container">
+  <div class="home-left-sidebar-container">
+    <a
+      routerLink="/boards"
+      class="boards-side-menu-option"
+      routerLinkActive="boards-side-menu-option-selected"
+    >Boards</a>
+    <a
+      routerLink="/"
+      class="boards-side-menu-option"
+      routerLinkActive="boards-side-menu-option-selected"
+      [routerLinkActiveOptions]="{exact: true}"
+    >Home</a>
+  </div>
+  <div class="boards-section-container">
+    <div class="my-boards">
+      <div class="my-boards-section-header">
+        <div class="boards-page-header-name">My boards</div>
+      </div>
+      <div class="board-tile-list">
+        <inline-form
+          class="create-board-form"
+          defaultText="Create new Board"
+          placeholder="board title"
+          (handleSubmit)="createBoard($event)"
+        ></inline-form>
+        <a
+          *ngFor="let board of boards"
+          [routerLink]="['/boards', board.id]"
+          class="board-tile"
+        >
+          <div class="board-tile-details-name">{{board.title}}</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

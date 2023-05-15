@@ -1,0 +1,30 @@
+export enum SocketEventsEnum {
+    BOARDS_JOIN = 'boards:join',
+    BOARDS_LEAVE = 'boards:leave',
+    BOARDS_UPDATE = 'boards:update',
+    BOARDS_UPDATE_SUCCESS = 'boards:updateSuccess',
+    BOARDS_UPDATE_FAILURE = 'boards:updateFailure',
+    BOARDS_DELETE = 'boards:delete',
+    BOARDS_DELETE_SUCCESS = 'boards:deleteSuccess',
+    BOARDS_DELETE_FAILURE = 'boards:deleteFailure',
+
+    COLUMNS_CREATE = 'columns:create',
+    COLUMNS_CREATE_SUCCESS = 'columns:createSuccess',
+    COLUMNS_CREATE_FAILURE = 'columns:createFailure',
+    COLUMNS_UPDATE = 'columns:update',
+    COLUMNS_UPDATE_SUCCESS = 'columns:updateSuccess',
+    COLUMNS_UPDATE_FAILURE = 'columns:updateFailure',
+    COLUMNS_DELETE = 'columns:delete',
+    COLUMNS_DELETE_SUCCESS = 'columns:deleteSuccess',
+    COLUMNS_DELETE_FAILURE = 'columns:deleteFailure',
+
+    TASKS_CREATE = 'tasks:create',
+    TASKS_CREATE_SUCCESS = 'tasks:createSuccess',
+    TASKS_CREATE_FAILURE = 'tasks:createFailure',
+    TASKS_UPDATE = 'tasks:update',
+    TASKS_UPDATE_SUCCESS = 'tasks:updateSuccess',
+    TASKS_UPDATE_FAILURE = 'tasks:updateFailure',
+    TASKS_DELETE = 'tasks:delete',
+    TASKS_DELETE_SUCCESS = 'tasks:deleteSuccess',
+    TASKS_DELETE_FAILURE = 'tasks:deleteFailure'
+}
