@@ -43,8 +43,6 @@ export class BoardComponent implements OnInit, OnDestroy {
             throw new Error("Can't get boardId from current URL");
         }
         this.boardId = boardId;
-        // this.board$ = this.boardStateService.board$.pipe(filter(Boolean));
-        // this.columns$ = this.boardStateService.columns$;
         this.data$ = combineLatest([
             this.boardStateService.board$.pipe(filter(Boolean)),
             this.boardStateService.columns$,
