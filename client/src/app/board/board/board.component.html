@@ -20,7 +20,7 @@
           (handleSubmit)="updateColumnName($event, column.id)"
         ></inline-form>
         <img ngSrc="/assets/close_icon.svg" alt="close btn"
-             class="column-delete-icon" height="1" width="1" (click)="deleteColumn(column.id)"/>
+             class="column-delete-icon" height="24" width="24" (click)="deleteColumn(column.id)"/>
       </div>
       <div
         *ngFor="let task of getTasksByColumn(column.id, data.tasks)"

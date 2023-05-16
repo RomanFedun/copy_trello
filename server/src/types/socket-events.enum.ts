@@ -14,7 +14,7 @@ export enum SocketEvents {
 	COLUMNS_UPDATE = 'columns:update',
 	COLUMNS_UPDATE_SUCCESS = 'columns:updateSuccess',
 	COLUMNS_UPDATE_FAILURE = 'columns:updateFailure',
-	COLUMNS_DELETE = '  columns:delete',
+	COLUMNS_DELETE = 'columns:delete',
 	COLUMNS_DELETE_SUCCESS = 'columns:deleteSuccess',
 	COLUMNS_DELETE_FAILURE = 'columns:deleteFailure',
 	

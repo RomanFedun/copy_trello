@@ -26,7 +26,6 @@ export class BoardsComponent implements OnInit, OnDestroy {
 
     createBoard(title: string) {
         this.boardsService.createBoard(title).subscribe(board => {
-            console.log('board', board);
             this.boards = [...this.boards, board];
         });
     }

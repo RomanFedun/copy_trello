@@ -62,7 +62,6 @@ export class BoardComponent implements OnInit, OnDestroy {
         this.socketService.emit(SocketEventsEnum.BOARDS_JOIN, {boardId: this.boardId});
 
         this.boardsService.getBoard(this.boardId).subscribe(board => {
-            console.log('board', board);
             this.boardStateService.setBoard(board);
         });
 
