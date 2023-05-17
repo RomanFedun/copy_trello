@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://meancopytrello.click/api',
-    socketUrl: 'https://meancopytrello.click'
+    apiUrl: 'https://eltrello.click/api',
+    socketUrl: 'https://eltrello.click'
 };
