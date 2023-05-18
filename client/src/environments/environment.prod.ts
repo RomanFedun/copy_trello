@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    apiUrl: 'http://localhost:80/api',
-    socketUrl: 'http://localhost:80'
+    apiUrl: 'http://eltrello.click/api',
+    socketUrl: 'http://eltrello.click'
 };
