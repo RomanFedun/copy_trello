@@ -39,7 +39,10 @@ export class RegisterComponent {
 
                 this.router.navigateByUrl('/');
             },
-            error: (err: HttpErrorResponse) => this.error = err.error.join(', ')
+            error: (err: HttpErrorResponse) => {
+                console.error(err.message);
+                this.error = err.message;
+            }
         });
     }
 }
