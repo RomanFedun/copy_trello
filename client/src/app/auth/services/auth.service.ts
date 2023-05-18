@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, catchError, filter, map, Observable, throwError } from 'rxjs';
 import { CurrentUser } from '../types/currentUser.interface';
-import { environment } from '../../../environments/environments';
+import { environment } from '../../../environments/environment';
 import { LoginRequest, RegisterRequest } from "../types/registerRequest.interface";
 import { SocketService } from '../../shared/services/socket.service';
 

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { CurrentUser } from '../../auth/types/currentUser.interface';
 import { io, Socket } from 'socket.io-client';
-import { environment } from '../../../environments/environments';
+import { environment } from '../../../environments/environment';
 import { Observable } from 'rxjs';
 
 @Injectable({

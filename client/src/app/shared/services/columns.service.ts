@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Column } from '../types/column';
-import { environment } from '../../../environments/environments';
+import { environment } from '../../../environments/environment';
 import { ColumnInput } from '../types/column-input';
 import { SocketService } from './socket.service';
 import { SocketEventsEnum } from '../types/socket-events.enum';

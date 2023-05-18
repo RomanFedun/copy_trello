@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { environment } from '../../../environments/environments';
+import { environment } from '../../../environments/environment';
 import { SocketService } from './socket.service';
 // import { SocketEventsEnum } from '../types/socket-events.enum';
 // import { TaskInputInterface } from '../types/task-input';
