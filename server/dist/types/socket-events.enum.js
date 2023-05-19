@@ -1,0 +1,33 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SocketEvents = void 0;
+var SocketEvents;
+(function (SocketEvents) {
+    SocketEvents["BOARDS_JOIN"] = "boards:join";
+    SocketEvents["BOARDS_LEAVE"] = "boards:leave";
+    SocketEvents["BOARDS_UPDATE"] = "boards:update";
+    SocketEvents["BOARDS_UPDATE_SUCCESS"] = "boards:updateSuccess";
+    SocketEvents["BOARDS_UPDATE_FAILURE"] = "boards:updateFailure";
+    SocketEvents["BOARDS_DELETE"] = "boards:delete";
+    SocketEvents["BOARDS_DELETE_SUCCESS"] = "boards:deleteSuccess";
+    SocketEvents["BOARDS_DELETE_FAILURE"] = "boards:deleteFailure";
+    SocketEvents["COLUMNS_CREATE"] = "columns:create";
+    SocketEvents["COLUMNS_CREATE_SUCCESS"] = "columns:createSuccess";
+    SocketEvents["COLUMNS_CREATE_FAILURE"] = "columns:createFailure";
+    SocketEvents["COLUMNS_UPDATE"] = "columns:update";
+    SocketEvents["COLUMNS_UPDATE_SUCCESS"] = "columns:updateSuccess";
+    SocketEvents["COLUMNS_UPDATE_FAILURE"] = "columns:updateFailure";
+    SocketEvents["COLUMNS_DELETE"] = "columns:delete";
+    SocketEvents["COLUMNS_DELETE_SUCCESS"] = "columns:deleteSuccess";
+    SocketEvents["COLUMNS_DELETE_FAILURE"] = "columns:deleteFailure";
+    SocketEvents["TASKS_CREATE"] = "tasks:create";
+    SocketEvents["TASKS_CREATE_SUCCESS"] = "tasks:createSuccess";
+    SocketEvents["TASKS_CREATE_FAILURE"] = "tasks:createFailure";
+    SocketEvents["TASKS_UPDATE"] = "tasks:update";
+    SocketEvents["TASKS_UPDATE_SUCCESS"] = "tasks:updateSuccess";
+    SocketEvents["TASKS_UPDATE_FAILURE"] = "tasks:updateFailure";
+    SocketEvents["TASKS_DELETE"] = "tasks:delete";
+    SocketEvents["TASKS_DELETE_SUCCESS"] = "tasks:deleteSuccess";
+    SocketEvents["TASKS_DELETE_FAILURE"] = "tasks:deleteFailure";
+})(SocketEvents = exports.SocketEvents || (exports.SocketEvents = {}));
+//# sourceMappingURL=socket-events.enum.js.map
