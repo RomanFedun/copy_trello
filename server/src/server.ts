@@ -110,5 +110,7 @@ io.use(async (socket: Socket, next) => {
 });
 
 mongoose.connect('mongodb://localhost:27017/mytrello').then(() => {
-    httpServer.listen(4001, () => {});
+    console.log('mongo connect')
 });
+
+httpServer.listen(4001, () => {});
