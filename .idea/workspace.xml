@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8312e14-ae47-43ee-aca4-4b217e02e19a" name="Changes" comment="" />
+    <list default="true" id="d8312e14-ae47-43ee-aca4-4b217e02e19a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/users.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,22 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/my_work/trello-socket-io-47-deployment/trello-socket-io-47-deployment",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\my_work\\copy_trello\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/my_work/slick_test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\my_work\\copy_trello\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\my_work\copy_trello\client\src" />
@@ -63,7 +67,14 @@
       <workItem from="1682599122400" duration="119297000" />
       <workItem from="1683898430600" duration="12823000" />
       <workItem from="1684180726635" duration="646000" />
-      <workItem from="1684181681213" duration="71050000" />
+      <workItem from="1684181681213" duration="81040000" />
+      <workItem from="1684955197365" duration="1227000" />
+      <workItem from="1685020212677" duration="9000" />
+      <workItem from="1685519394328" duration="6851000" />
+      <workItem from="1685988876363" duration="609000" />
+      <workItem from="1687456502745" duration="1907000" />
+      <workItem from="1687805732802" duration="4519000" />
+      <workItem from="1689153911210" duration="4968000" />
     </task>
     <servers />
   </component>

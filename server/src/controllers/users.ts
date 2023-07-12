@@ -22,13 +22,13 @@ export const register = async (
     next: NextFunction
 ) => {
     try{
-        // const newUser = new UserModel({
-        //     email: req.body.email,
-        //     userName: req.body.userName,
-        //     password: req.body.password
-        // });
-        // const savedUser = await newUser.save();
-        res.send('server work');
+        const newUser = new UserModel({
+            email: req.body.email,
+            userName: req.body.userName,
+            password: req.body.password
+        });
+        const savedUser = await newUser.save();
+        res.send(normalizeUser(savedUser));
     } catch (error) {
         if (error instanceof Error.ValidationError) {
             const messages = Object.values(error.errors).map(err => err.message);
